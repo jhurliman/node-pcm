@@ -14,7 +14,7 @@ using ffmpeg.
     var min = 1.0;
     var max = -1.0;
     
-    pcm.getPcmData('test.mp3', {},
+    pcm.getPcmData('test.mp3', { stereo: true, sampleRate: 44100 },
       function(sample, channel) {
         // Sample is from [-1.0...1.0], channel is 0 for left and 1 for right
         min = Math.min(min, sample);
