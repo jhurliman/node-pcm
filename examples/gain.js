@@ -2,7 +2,7 @@
  * Calculate the ReplayGain adjustment for a file containing an audio track.
  * See http://replaygain.org/ for more information.
  * http://github.com/jhurliman/node-pcm
- * Copyright (c) John Hurliman <jhurliman@cull.tv>. 2012
+ * Copyright (c) 2012 Cull TV, Inc. <jhurliman@cull.tv>
  *****************************************************************************/
 
 var fs = require('fs');

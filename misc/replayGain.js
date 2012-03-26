@@ -1,6 +1,6 @@
 /*
  *  ReplayGainAnalysis - analyzes input samples and give the recommended dB change
- *  Copyright (c) John Hurliman <jhurliman@cull.tv>. 2012
+ *  Copyright (c) 2012 Cull TV, Inc. <jhurliman@cull.tv>
  *  Based on gain_analysis.c, copyright 2001 David Robinson and Glen Sawyer
  *  Improvements and optimizations added by Frank Klemm, and by Marcel Muller
  *
