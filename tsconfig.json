@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "noImplicitAny": true,
+        "target": "ES6",
+        "module": "CommonJS",
+        "strict": true,
+        "outDir": "lib",
+        "declaration": true
+    },
+    "include": [ "src/pcm.ts" ]
+}
