@@ -13,7 +13,7 @@ npm install pcm
 ffmpeg -version
 ```
 
-Install [ffmpeg](https://ffmpeg.org/download.html) separately and make it available on `PATH`, or pass `ffmpegPath`. This package does not download an ffmpeg binary. The API below describes the 1.1.0 preparation branch; see [CHANGELOG.md](CHANGELOG.md) for changes.
+Install [ffmpeg](https://ffmpeg.org/download.html) separately and make it available on `PATH`, or pass `ffmpegPath`. This package does not download an ffmpeg binary. See [CHANGELOG.md](CHANGELOG.md) for API and compatibility changes.
 
 ## Measure an audio file
 
