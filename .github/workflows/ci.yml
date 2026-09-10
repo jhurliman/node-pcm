@@ -14,5 +14,6 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
       - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - run: npm ci --ignore-scripts
       - run: npm test
       - run: npm pack

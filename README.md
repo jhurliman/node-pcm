@@ -57,3 +57,7 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## Release checks
+
+The 1.1.0 candidate includes packaged declarations and retains the callback/legacy stream API. Run `npm ci` and `npm test` with ffmpeg installed. Tests include real audio decoding, installed CommonJS/ESM consumers and strict TypeScript fixtures. `npm publish` runs the checks through `prepublishOnly`; it remains a separate authenticated maintainer action after review and merge.

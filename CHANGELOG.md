@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 1.1.0 (release candidate)
 
 - Decode signed 16-bit samples correctly across arbitrary output-buffer boundaries.
 - Keep mono channel IDs at zero and clamp the minimum signed sample to -1, matching the documented range. Other sample normalization is unchanged.
@@ -11,3 +11,5 @@
 ### Compatibility notes
 
 The callback and legacy event-stream APIs remain available. Code that relied on success after a failed ffmpeg process must now handle the error callback. Negative full-scale samples now return -1 rather than a value slightly below -1. Completion occurs after process closure rather than stderr ending.
+
+- Validate the installed tarball and strict CommonJS/ESM TypeScript consumers in CI. Stream declarations now include the inherited EventEmitter/Stream API.
