@@ -7,6 +7,8 @@ using ffmpeg.
 
     npm install pcm
 
+Requires ffmpeg on PATH (or set `ffmpegPath` in the options). CI tests Node.js 22, 24, and 26. Both `require('pcm')` and ESM `import pcm from 'pcm'` are supported. TypeScript declarations are included.
+
 ## Usage ##
 
     var pcm = require('pcm');
