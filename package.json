@@ -2,8 +2,22 @@
   "name": "pcm",
   "version": "1.0.3",
   "main": "./index",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {},
+  "description": "Extract signed PCM audio samples from media files using ffmpeg.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhurliman/node-pcm.git"
   },
-  "devDependencies": {
+  "types": "./index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "lib/",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js"
   }
 }
