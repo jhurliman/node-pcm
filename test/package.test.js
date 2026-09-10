@@ -24,6 +24,6 @@ pcm.getPcmStream('audio.wav').on('end', (error,output)=>{}).on('data', (sample,c
 pcm.getPcmData('audio.wav',{stereo:'yes'},()=>{},()=>{});
 `;
     for(const ext of ['cts','mts'])fs.writeFileSync(path.join(dir,'consumer.'+ext),source);
-    run(process.execPath,[path.join(root,'node_modules/typescript/bin/tsc'),'--strict','--noEmit','--target','es2022','--module','nodenext','--moduleResolution','nodenext','--typeRoots',path.join(root,'node_modules/@types'),'consumer.cts','consumer.mts']);
+    run(process.execPath,[path.join(root,'node_modules/typescript/bin/tsc'),'--strict','--noEmit','--target','es2022','--module','nodenext','--moduleResolution','nodenext','consumer.cts','consumer.mts']);
   } finally { fs.rmSync(dir,{recursive:true,force:true}); }
 });
