@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.1.0 (release candidate)
+## 1.1.0 — 2026-09-10
 
 - Decode signed 16-bit samples correctly across arbitrary output-buffer boundaries.
 - Keep mono channel IDs at zero and clamp the minimum signed sample to -1, matching the documented range. Other sample normalization is unchanged.
